@@ -4,10 +4,34 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<style>
+		div{
+			height:100px;
+			width:100px;
+			background-color:red;
+			animation:pulse 1s infinite;
+		}
+
+		@keyframes pulse {
+			0% {
+				transform: scale(1);
+				opacity: 1;
+			}
+			50% {
+				transform: scale(1.2);
+				opacity: 0.7;
+			}
+			100% {
+				transform: scale(1);
+				opacity: 1;
+			}
+		}
+	</style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<div></div>
     <script type="text/javascript" src="./script.js">
 </script>
 
